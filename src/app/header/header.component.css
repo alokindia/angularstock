@@ -1,0 +1,22 @@
+#line1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 150%;
+    color: white;
+    text-align: center;
+    width:100%;
+
+}
+
+#line2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:100%;
+    color:white;
+    width:100%;
+    text-align: right;
+}
+
+.card
+{
+    background-color: #17a2b8;
+    padding: 1%;
+}

@@ -1,0 +1,33 @@
+.p {
+    
+    color: rgb(206, 33, 56);
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+  }
+
+  .card {
+    
+    width: 80%;
+    height:460px;
+    background-color: rgb(245, 239, 239);
+    color: rgb(219, 22, 22);
+    text-align: center;
+    border-radius: 6px;
+    padding: 15px 0;
+    bottom: 50%;
+    left: 10%;
+    margin-left: -20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+.x{
+  margin-left: 450px;
+}
+
