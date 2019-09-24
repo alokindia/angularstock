@@ -13,8 +13,8 @@ import {HttpClientModule} from '@angular/common/http';
 import { CompanyComponent } from './company/company.component';
 import { StockDetailComponent } from './stock-detail/stock-detail.component';
 import { WidgetListComponent } from './widget-list/widget-list.component';
-import { ChartsModule } from 'ng2-charts';
 import { StockService } from './service/stock-service/stock.service';
+import { ChartsModule } from 'ng2-charts';
 
 
 @NgModule({
@@ -29,14 +29,17 @@ import { StockService } from './service/stock-service/stock.service';
     CompanyComponent,
     StockDetailComponent,
     WidgetListComponent,
-    ChartsModule,
+    HttpClientModule,
+    HttpClientInMemory
+    
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
     FormsModule,
-    HttpClientModule
+    HttpClientModule,
+    ChartsModule
   ],
   providers: [StockService,],
   bootstrap: [AppComponent]
